@@ -6,9 +6,7 @@ module.exports = (files, baseConfig) => {
   let errorCount = -1
 
   return e.lintFiles(files).then(results => {
-    // console.log(`found lint issues: ${results.length}`)
     errorCount = results.reduce((a, r) => a + r.errorCount, 0)
-    console.log(`error count: ${errorCount}`)
 
     return errorCount === 0
       ? Promise.resolve()
