@@ -1,0 +1,32 @@
+{
+  "name": "run-eslint-async",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brodybits/run-eslint-async.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brodybits/run-eslint-async/issues"
+  },
+  "homepage": "https://github.com/brodybits/run-eslint-async#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "dependencies": {
+    "stylish": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "meow": "^9.0.0"
+  }
+}
