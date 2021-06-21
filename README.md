@@ -1,8 +1,9 @@
 # run-eslint-async
 
-Run ESLint with a quick-and-easy API
+[![LICENSE: MIT](https://img.shields.io/npm/l/run-eslint-async?style=flat-square)](./LICENSE.md)
+[![npm: run-eslint-async](https://img.shields.io/npm/v/run-eslint-async?color=blue&style=flat-square)](https://www.npmjs.com/package/run-eslint-async)
 
-**LICENSE:** [MIT license](./LICENSE.md)
+Run ESLint with a quick-and-easy API
 
 ## Requirements
 
