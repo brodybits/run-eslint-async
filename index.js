@@ -14,8 +14,7 @@ module.exports = (files, baseConfig) => {
       ? Promise.resolve()
       : e.loadFormatter('stylish')
         .then(f => {
-          console.log(f.format(results))
-          return Promise.reject()
+          return Promise.reject(f.format(results))
 	})
   })
 }
