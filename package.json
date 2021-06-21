@@ -1,6 +1,6 @@
 {
   "name": "run-eslint-async",
-  "version": "0.0.2",
+  "version": "0.0.3-dev",
   "license": "MIT",
   "main": "index.js",
   "files": [
